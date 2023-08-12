@@ -1,0 +1,55 @@
+/* :root {
+  --navbar-height: 50px;
+  --navbar-logo-width: 10vw;
+  --navbar-menu-width: 80vw;
+  --navbar-login-userprofile-width: 10vw;
+  --navbar-menu-item-padding-y: 13px;
+  --navbar-menu-item-padding-x: 10px;
+
+  --landing-text-top-padding: 7vw;
+  --landing-font-size-small: 20px;
+  --landing-font-size-big: 50px;
+  --search-bar-height: 35px;
+  --search-bar-width: 490px;
+  --search-bar-padding-x: 24vw;
+  --search-button-width: 50px;
+  --search-bar-margin-top: 25px;
+
+  --section-heading-size: 30px;
+  --section-heading-top-padding: 60px;
+
+  --service-wrapper-height: 50vh;
+  --service-wrapper-width: 80vw;
+  --service-name-font-size: 20px;
+
+  --about-us-description-width: 40vw;
+  --about-us-description-height: 30vw;
+
+  --stores-registered-margin-y: 1vh;
+  --stores-registered-slider-padding: 10px;
+  --registered-store-logo-width: 25%;
+  --registered-store-name-font-size: 30px;
+  --registered-store-name-left-margin: 2vw;
+  --register-store-button-font-size: 15px;
+  --stores-registered-height: 200px;
+
+  --contactus-form-row-1-height: 10%;
+
+  --footer-font-size: 15px;
+  --footer-heading-font-size: 20px;
+  --footer-height: 200px;
+} */
+
+.content-wrap{
+  background-color: #e2e2e2;
+}
+
+.button-style{
+  border: none;
+  background: linear-gradient(180deg, #9748FC 0%, #E96070 100%);
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: white;
+}

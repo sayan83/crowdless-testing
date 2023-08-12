@@ -1,0 +1,319 @@
+.homepage-container{
+    font-family: marvel;
+}
+input{
+    padding: 0 10px;
+}
+textarea{
+    padding: 10px 10px;
+    font-family: marvel;
+}
+:root {
+    --navbar-height: 50px;
+    --navbar-logo-width: 10vw;
+    --navbar-menu-width: 80vw;
+    --navbar-menu-item-font-size: 15px;
+    --navbar-login-userprofile-width: 10vw;
+    --navbar-menu-item-padding-y: 13px;
+    --navbar-menu-item-padding-x: 10px;
+  
+    --landing-text-top-padding: 7vw;
+    --landing-font-size-small: 20px;
+    --landing-font-size-big: 50px;
+    --search-bar-height: 37px;
+    --search-bar-width: 490px;
+    --search-bar-padding-x: 24vw;
+    --search-button-width: 50px;
+    --search-bar-margin-top: 25px;
+  
+    --section-heading-size: 30px;
+    --section-heading-top-padding: 60px;
+  
+    --service-wrapper-height: 50vh;
+    --service-wrapper-width: 80vw;
+    --service-name-font-size: 20px;
+  
+    --about-us-description-width: 40vw;
+    --about-us-description-height: 30vw;
+    --about-us-description-margin-x: 15vw;
+    --about-us-description-margin-y: 8vw;
+    --about-us-description-font-size: 22px;
+  
+    --stores-registered-margin-y: 1vh;
+    --stores-registered-slider-padding: 10px;
+    --registered-store-logo-width: 25%;
+    --registered-store-name-font-size: 30px;
+    --registered-store-name-left-margin: 2vw;
+    --register-store-button-font-size: 15px;
+    --stores-registered-height: 200px;
+
+    --why-register-question-font-size: 22px;
+    --why-register-question-margin-top: 18px;
+    --store-benefits-row-height: 58%;
+    --store-benefits-row-width: 85%;
+    --store-benefit-col-width: 27%;
+    --store-benefits-image-height: 46%;
+    --store-benefits-heading-font-size: 20px;
+    --store-benefits-heading-margin-y: 5px;
+    --store-benefits-description-padding: 15px;
+    --store-benefits-description-font-size: 15px;
+  
+    --contactus-form-row-1-height: 10%;
+    --contactus-form-row-1-input-width: 47%;
+    --contactus-form-row-width: 70%;
+  
+    --footer-font-size: 15px;
+    --footer-heading-font-size: 20px;
+    --footer-height: 200px;
+  }
+
+  @media only screen and (min-width: 1250px){
+      :root{
+        --navbar-height: 60px;
+        --navbar-menu-item-padding-y: 16px;
+        --navbar-menu-item-font-size: 20px;
+
+        --landing-text-top-padding: 10vw;
+        --search-bar-height: 50px;
+        --search-bar-width: 600px;
+        --search-button-width: 70px;
+        --search-bar-padding-x: 28vw;
+        --landing-font-size-small: 30px;
+        --landing-font-size-big: 60px;
+
+        --section-heading-size: 40px;
+        --section-heading-top-padding: 70px;
+        
+        --service-wrapper-height: 55vh;
+        --service-wrapper-width: 85vw;
+        --service-name-font-size: 30px;
+
+        --about-us-description-margin-x: 15vw;
+        --about-us-description-margin-y: 10vw;
+        --about-us-description-font-size: 30px;
+        
+        --registered-store-logo-width: 30%;
+
+        --why-register-question-font-size: 27px;
+        --store-benefits-row-height: 58%;
+        --store-benefits-image-height: 56%;
+        --store-benefits-heading-font-size: 30px;
+        --store-benefits-heading-margin-y: 25px;
+        --store-benefits-description-font-size: 22px;
+
+        --contactus-form-row-1-input-width: 47%;
+
+        --footer-font-size: 17px;
+        --footer-heading-font-size: 23px;
+        --footer-height: 225px;
+      }
+      input{
+          font-size: 15px;
+      }
+      textarea{
+          font-size: 15px;
+      }
+  }
+  @media only screen and (min-width: 1850px){
+    :root{
+      --navbar-height: 90px;
+      --navbar-menu-item-padding-y: 23px;
+      --navbar-menu-item-font-size: 28px;
+
+      --landing-text-top-padding: 10vw;
+      --search-bar-height: 70px;
+      --search-bar-width: 800px;
+      --search-button-width: 80px;
+      --search-bar-padding-x: 28vw;
+      --landing-font-size-small: 50px;
+      --landing-font-size-big: 80px;
+
+      --section-heading-size: 60px;
+      --section-heading-top-padding: 90px;
+      
+      --service-wrapper-height: 55vh;
+      --service-wrapper-width: 85vw;
+      --service-name-font-size: 40px;
+
+      --about-us-description-margin-x: 17vw;
+      --about-us-description-margin-y: 12vw;
+      --about-us-description-font-size: 40px;
+      
+      --registered-store-logo-width: 40%;
+      --stores-registered-height: 300px;
+
+      --why-register-question-font-size: 35px;
+      --why-register-question-margin-top: 30px;
+      --store-benefits-row-height: 58%;
+      --store-benefit-col-width: 28%;
+      --store-benefits-image-height: 56%;
+      --store-benefits-heading-font-size: 46px;
+      --store-benefits-heading-margin-y: 40px;
+      --store-benefits-description-font-size: 32px;
+
+      --contactus-form-row-1-input-width: 48%;
+
+      --footer-font-size: 20px;
+      --footer-heading-font-size: 25px;
+      --footer-height: 250px;
+    }
+    input{
+        font-size: 20px;
+    }
+    textarea{
+        font-size: 20px;
+    }
+    .button-style{
+        padding: 15px 20px;
+        font-size: 25px;
+        color: white;
+      }
+}
+
+@media only screen and (max-width: 1000px){
+    :root{
+        --landing-text-top-padding: 11vw;
+
+        --about-us-description-margin-x: 18vw;
+
+        --store-benefit-col-width: 29%;
+
+        --contactus-form-row-1-input-width: 46%;
+    }
+}
+@media only screen and (max-width: 850px){
+    :root{
+        --landing-text-top-padding: 13vw;
+        --search-bar-width: 500px;
+
+        --about-us-description-margin-x: 18vw;
+
+        --store-benefit-col-width: 29%;
+        --store-benefits-row-height: 50%;
+
+        --contactus-form-row-1-input-width: 46%;
+        --contactus-form-row-width: 80%;
+    }
+}
+@media only screen and (max-width: 750px){
+    :root{
+        --landing-text-top-padding: 16vw;
+        --search-bar-width: 500px;
+
+        --about-us-description-margin-x: 18vw;
+        --about-us-description-width: 50vw;
+        --about-us-description-height: 25vw;
+
+        --store-benefit-col-width: 30%;
+        --store-benefits-row-height: 45%;
+
+        --contactus-form-row-1-input-width: 46%;
+        --contactus-form-row-width: 80%;
+    }
+}
+@media only screen and (max-width: 675px){
+    :root{
+        --landing-text-top-padding: 19vw;
+        --search-bar-width: 450px;
+
+        --about-us-description-margin-x: 18vw;
+        --about-us-description-width: 50vw;
+        --about-us-description-height: 25vw;
+
+        --registered-store-logo-width: 22%;
+        --registered-store-name-font-size: 25px;
+
+        --store-benefit-col-width: 30%;
+        --store-benefits-row-height: 45%;
+        --store-benefits-row-width: 93%;
+
+        --contactus-form-row-1-input-width: 46%;
+        --contactus-form-row-width: 90%;
+
+        --footer-font-size: 12px;
+        --footer-heading-font-size: 16px;
+        --footer-height: 170px;
+    }
+}
+@media only screen and (max-width: 600px){
+    :root{
+        --landing-text-top-padding: 19vw;
+        --search-bar-width: 450px;
+
+        --about-us-description-margin-x: 18vw;
+        --about-us-description-width: 50vw;
+        --about-us-description-height: 25vw;
+
+        --registered-store-logo-width: 22%;
+        --registered-store-name-font-size: 25px;
+
+        --store-benefit-col-width: 32%;
+        --store-benefits-row-height: 45%;
+        --store-benefits-row-width: 95%;
+
+        --contactus-form-row-1-input-width: 46%;
+        --contactus-form-row-width: 90%;
+        --store-benefits-heading-font-size: 18px;
+
+        --footer-font-size: 12px;
+        --footer-heading-font-size: 16px;
+        --footer-height: 170px;
+    }
+}
+@media only screen and (max-width: 525px){
+    :root{
+        --landing-text-top-padding: 25vw;
+        --search-bar-width: 400px;
+
+        --about-us-description-margin-x: 18vw;
+        --about-us-description-width: 50vw;
+        --about-us-description-height: 25vw;
+
+        --registered-store-logo-width: 22%;
+        --registered-store-name-font-size: 25px;
+
+        --store-benefit-col-width: 32%;
+        --store-benefits-row-height: 45%;
+        --store-benefits-row-width: 95%;
+
+        --contactus-form-row-1-input-width: 46%;
+        --contactus-form-row-width: 90%;
+        --store-benefits-heading-font-size: 18px;
+
+        --footer-font-size: 12px;
+        --footer-heading-font-size: 16px;
+        --footer-height: 170px;
+    }
+}
+@media only screen and (max-width: 500px){
+    :root{
+        --landing-text-top-padding: 25vw;
+        --search-bar-width: 350px;
+    }
+}
+@media only screen and (max-width: 450px){
+    :root{
+        --landing-text-top-padding: 25vw;
+        --search-bar-width: 300px;
+    }
+}
+@media only screen and (max-width: 400px){
+    :root{
+        --landing-text-top-padding: 25vw;
+        --search-bar-width: 275px;
+        --landing-font-size-small: 15px;
+        --landing-font-size-big: 40px;
+
+        --service-name-font-size: 17px;
+    }
+}
+@media only screen and (max-width: 350px){
+    :root{
+        --landing-text-top-padding: 25vw;
+        --search-bar-width: 250px;
+        --landing-font-size-small: 15px;
+        --landing-font-size-big: 40px;
+
+        --service-name-font-size: 13px;
+    }
+}

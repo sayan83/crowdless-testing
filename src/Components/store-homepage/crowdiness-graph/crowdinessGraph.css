@@ -1,0 +1,15 @@
+.graph-container{
+    width: var(--graph-container-width);
+    height: var(--graph-container-height);
+    /* border: 1px solid green; */
+}
+.graph-heading{
+    font-weight: 700;
+    font-size: var(--graph-heading-font-size);
+    text-align: center;
+}
+.live-graph{
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}

@@ -1,0 +1,61 @@
+.contact-us-container{
+    background: url('../../../assets/contactus.png');
+    width: 100%;
+    height: 59vh;
+    background-size: cover;
+    background-position: center;
+}
+.contact-us-heading{
+    font-size: var(--section-heading-size);
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: center;
+}
+.form-row{
+    margin: 10px auto;
+    width: var(--contactus-form-row-width);
+    display: flex;
+    height: var(--contactus-form-row-1-height);
+    justify-content: space-between;
+}
+.contact-us-form-input{
+    border: none;
+    width: 100%;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.contact-us-form-row-1{
+    width: var(--contactus-form-row-1-input-width);
+}
+.send-button-wrapper{
+    margin-top: 10px;
+    text-align: center;
+}
+@media only screen and (max-width: 550px){
+    #row-1{
+        height: 20%;
+        display: block;
+    }
+    .contact-us-form-row-1{
+        width: 95%;
+        height: 48%;
+        margin-bottom: 2%;
+    }
+    .contact-us-container{
+        height: 65vh;
+    }
+    @media only screen and (max-height: 650px){
+        .contact-us-container{
+            height: 80vh;
+        }
+    }
+    @media only screen and (max-height: 500px){
+        .contact-us-container{
+            height: 100vh;
+        }
+    }
+    @media only screen and (max-height: 400px){
+        .contact-us-container{
+            height: 120vh;
+        }
+    }
+}

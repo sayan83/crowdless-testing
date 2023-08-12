@@ -1,0 +1,75 @@
+.navbar-container{
+    height: var(--navbar-height);
+    width: 100%;
+    background-color: #60E98E;
+    position: fixed;
+    display: inline-flex;
+    z-index: 1;
+}
+.logo-image{
+    height: 100%;
+    width: var(--navbar-logo-width);
+}
+.navbar-menu{
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    display: inline-flex;
+}
+.navbar-menu-item{
+    padding: var(--navbar-menu-item-padding-y) var(--navbar-menu-item-padding-x);
+    font-size: var(--navbar-menu-item-font-size);
+}
+.remove-decorations{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    height: 100%;
+    width: var(--navbar-login-userprofile-width);
+}
+.user-profile-icon{
+    height: 100%;
+    width: var(--navbar-login-userprofile-width);
+}
+.hide{
+    display: none;
+}
+.navbar-menu-icon-mobile{
+    display: none;
+}
+.rightdrawer {
+    height: 100%;
+    position: fixed;
+    width: 0vw;
+    background-color: #181818;
+    overflow-y: visible;
+    margin-left: 30vw;
+    top: 0;
+    transition: 1s;
+}
+.close-drawer{
+    margin-top: 4vh;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    padding-left: 3vw;
+}
+.menu-mobile{
+    /* display: inline-block; */
+    text-align: left;
+    margin-top: 10vh;
+}
+.navbar-menu-item-mobile{
+    color: white;
+}
+
+@media only screen and (max-width: 800px){
+    .navbar-menu-icon-mobile{
+        display: block;
+        margin: auto 30px auto auto;
+    }
+    .navbar-menu, .login{
+        display: none;
+    }
+}

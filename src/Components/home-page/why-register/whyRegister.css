@@ -1,0 +1,87 @@
+.why-register-container{
+    background: url('../../../assets/RegisterYourStore.svg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.register-your-store-question{
+    font-size: var(--section-heading-size);
+    font-weight: 500;
+    text-align: center;
+    padding-top: var(--section-heading-top-padding);
+    padding-bottom: 10px;
+}
+.register-store-button{
+    /* transform: translateX(44vw); */
+    /* margin: 10px 0; */
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: var(--register-store-button-font-size);
+}
+.why-register-question{
+    font-size: var(--why-register-question-font-size);
+    text-align: center;
+    margin-top: var(--why-register-question-margin-top);
+}
+.store-benefits-row{
+    height: var(--store-benefits-row-height);
+    width: var(--store-benefits-row-width);
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.store-benefit-col{
+    height: 100%;
+    width: var(--store-benefit-col-width);
+    background-color: #dbdbdb;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+.store-benefit-image{
+    width: 100%;
+    height: var(--store-benefits-image-height);
+    background-color: white;
+}
+.store-benefit-heading{
+    font-size: var(--store-benefits-heading-font-size);
+    font-weight: 500;
+    text-align: center;
+    margin: var(--store-benefits-heading-margin-y) 0;
+}
+.store-benefit-description{
+    /* width: 100%;
+    height: 60%; */
+    font-weight: 100;
+    padding: var(--store-benefits-description-padding);
+    font-size: var(--store-benefits-description-font-size);
+}
+.registration-cost{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+@media only screen and (max-width: 525px){
+    .store-benefits-row{
+        display: block;
+    }
+    .store-benefit-col{
+        width: 62%;
+        margin: 50px auto;
+        padding-bottom: 50px;
+    }
+    .why-register-container{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 450px){
+    .store-benefit-col{
+        width: 77%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .store-benefit-col{
+        width: 83%;
+    }
+}

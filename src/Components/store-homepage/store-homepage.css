@@ -1,0 +1,117 @@
+.store-homepage-container{
+    font-family: marvel;
+}
+.graph-suggested-stores-row{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.hide{
+    display: none;
+}
+.book-appointment-form{
+    z-index: 2;
+}
+:root{
+    --store-details-container-padding-top: 60px;
+    --store-name-font-size: 30px;
+    --store-name-height: 80px;
+
+    --details-logo-width: 60px;
+    --details-heading-font-size: 18px;
+
+    --store-feature-button-width: 214px;
+    --store-book-appointment-width: 60%;
+    --store-book-appointment-font-size: 35px;
+    --store-book-appointment-margin-top: 100px;
+    --store-book-appointment-padding: 50px;
+
+    --graph-container-width: 70%;
+    --graph-container-height: 500px;
+    --graph-heading-font-size: 30px;
+
+    --suggested-store-heading-font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .graph-suggested-stores-row{
+        display: block;
+    }
+    :root{
+        --graph-container-width: 100%;
+        --suggested-store-container-mobile-height: 225px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    :root{
+        --details-logo-width: 50px;
+        --details-heading-font-size: 15px;
+
+        --store-feature-button-width: 190px;
+    }
+}
+@media only screen and (max-width: 585px) {
+    :root{
+        --details-logo-width: 91px;
+        --details-heading-font-size: 26px;
+        --details-value-font-size: 20px;
+
+        --store-feature-button-width: 400px;
+        --store-feature-button-font-size: 22px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    :root{
+        --details-logo-width: 80px;
+        --details-heading-font-size: 22px;
+        --details-value-font-size: 17px;
+
+        --store-feature-button-width: 350px;
+        --store-feature-button-font-size: 20px;
+    }
+}
+@media only screen and (max-width: 374px) {
+    :root{
+        --details-logo-width: 70px;
+        --details-heading-font-size: 20px;
+        --details-value-font-size: 15px;
+
+        --store-feature-button-width: 300px;
+        --store-feature-button-font-size: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    :root{
+        --details-logo-width: 70px;
+        --details-heading-font-size: 20px;
+        --details-value-font-size: 15px;
+
+        --store-feature-button-width: 300px;
+        --store-feature-button-font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    :root{
+        --store-details-container-padding-top: 100px;
+        --details-logo-width: 80px;
+        --details-heading-font-size: 25px;
+        --details-value-font-size: 20px;
+
+        --store-feature-button-width: 350px;
+        --store-feature-button-font-size: 25px;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    :root{
+        --store-details-container-padding-top: 100px;
+        --details-logo-width: 90px;
+        --details-heading-font-size: 30px;
+        --details-value-font-size: 25px;
+
+        --store-feature-button-width: 400px;
+        --store-feature-button-font-size: 30px;
+    }
+}

@@ -1,0 +1,60 @@
+.book-appointment-container{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.book-appointment-content{
+    width: var(--store-book-appointment-width);
+    margin: var(--store-book-appointment-margin-top) auto;
+    background-color: #c4c4c4;
+    padding: var(--store-book-appointment-padding);
+    text-align: center;
+}
+.close-form{
+    position: absolute;
+    text-align: right;
+    margin-top: -4%;
+    margin-left: 63%;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
+}
+.book-appointment-heading{
+    font-size: var(--store-book-appointment-font-size);
+    padding-bottom: 30px;
+}
+.book-appointment-form-input{
+    border: none;
+    width: 97%;
+    height: 45px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.appointment-time{
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: left;
+}
+.remainder-text{
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: red;
+}
+.appointment-time-note{
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.accept-terms-conditions{
+    text-align: left;
+}
+.accept-terms-conditions-text{
+    font-size: 15px;
+}
+.book-button{
+    margin-top: 15px;
+}

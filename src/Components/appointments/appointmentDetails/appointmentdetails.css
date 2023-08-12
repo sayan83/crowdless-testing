@@ -1,0 +1,17 @@
+.appnt-details-row{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+.appnt-details-col{
+    width: 50%;
+    font-size: 21px;
+
+}
+.appnt-qrcode{
+    width: 50%;
+    text-align: center;
+}
+.qrcode{
+    width: 50%;
+}

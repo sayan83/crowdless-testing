@@ -1,0 +1,69 @@
+.footer-container{
+    background-color: #292929;
+    width: 100%;
+    height: var(--footer-height);
+    display: flex;
+    color: white;
+    font-size: var(--footer-font-size);
+    justify-content: space-evenly;
+}
+.footer-col{
+    margin-top: 2%;
+}
+#crowdlesslogofooter{
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+.footer-logo{
+    width: 35%;
+}
+.footer-heading{
+    font-size: var(--footer-heading-font-size);
+    font-weight: 300;
+    padding-bottom: 13px;
+}
+.footer-text{
+    font-size: var(--footer-font-size);
+    color: #c9c9c9;
+    font-weight: 200;
+}
+.social-media-row{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    padding: 0 2px;
+}
+.green-circle{
+    background-color: #60E98E;
+    border-radius: 50%;
+    width: 45px;
+    text-align: center;
+    font-size: 25px;
+    padding: 7px 0;
+    color: black;
+}
+.social-media-label{
+    padding: 0 4px;
+}
+#short-copyright-mobile{
+    display: none;
+}
+@media only screen and (max-width: 475px){
+    #logo-col,#office-col{
+        display: none;
+    }
+    .footer-container{
+        justify-content: space-around;
+    }
+    .social-media-row{
+        height: 37px;
+    }
+    .green-circle{
+        width: 37px;
+        font-size: 19px;
+    }
+    #short-copyright-mobile{
+        display: block;
+    }
+}

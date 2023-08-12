@@ -1,0 +1,30 @@
+.stores-registered-container{
+    height: var(--stores-registered-height);
+    width: 100%;
+    background: linear-gradient(180deg, rgba(214, 176, 244, 0.42) 0%, rgba(240, 186, 186, 0.0882) 100%);
+}
+.stores-registered-heading{
+    font-size: var(--section-heading-size);
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2%;
+}
+.stores-slider{
+    margin: var(--stores-registered-margin-y) 0;
+    overflow: hidden;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.stores-slider-col{
+    height: 100%;
+    display: flex;
+}
+.registered-store-logo{
+    width: var(--registered-store-logo-width);
+}
+.registered-store-name{
+    font-size: var(--registered-store-name-font-size);
+    margin: auto;
+    margin-left: var(--registered-store-name-left-margin);
+}

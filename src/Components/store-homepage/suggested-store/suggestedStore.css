@@ -1,0 +1,16 @@
+.suggested-store-container{
+    margin-top: 206px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.suggested-store-heading{
+    font-size: var(--suggested-store-heading-font-size);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 800px){
+    .suggested-store-container{
+        margin-top: 0;
+        height: var(--suggested-store-container-mobile-height);
+    }
+}

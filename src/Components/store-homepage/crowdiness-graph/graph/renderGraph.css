@@ -1,0 +1,10 @@
+.graph-container{
+    height: 100%;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.graph-canvas{
+    height: 90%;
+    width: 90%;
+}
