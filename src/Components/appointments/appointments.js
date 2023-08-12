@@ -61,7 +61,7 @@ class Appointment extends Component {
                     appointmentDetails: {
                         appointmentId: longAppointmentId,
                         estimatedTime: appointmentTime,
-                        status: ''
+                        status: 'Booked'
                     },
                     storeDetails: {
                         storeName: 'Star Store',

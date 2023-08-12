@@ -45,7 +45,8 @@ class AppointmentDetails extends Component {
     render() {
         let time = 'N/A',date = 'N/A',status = 'N/A';
         if(this.props.details && this.props.details.estimatedTime !== 0){
-            let d = `${new Date(this.props.details.estimatedTime * 1000)}`;
+            // let d = `${new Date(this.props.details.estimatedTime * 1000)}`;
+            let d = this.props.details.estimatedTime.toString()
             time = d.substr(16,5) + d.substr(24,9);
             date = d.substr(0,15);
             status = this.props.details.status;
