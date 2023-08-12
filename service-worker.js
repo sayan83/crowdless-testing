@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crowdless-testing/precache-manifest.cda400cd4d69296815510bca5074af78.js"
+  "/crowdless-testing/precache-manifest.7319a983948ccb3995eeac8a055e8198.js"
 );
 
 self.addEventListener('message', (event) => {
