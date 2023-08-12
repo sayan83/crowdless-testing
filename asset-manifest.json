@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/crowdless-web/static/css/main.e2c0cf1e.chunk.css",
+    "main.js": "/crowdless-web/static/js/main.105cd28b.chunk.js",
+    "main.js.map": "/crowdless-web/static/js/main.105cd28b.chunk.js.map",
+    "runtime-main.js": "/crowdless-web/static/js/runtime-main.82ba2935.js",
+    "runtime-main.js.map": "/crowdless-web/static/js/runtime-main.82ba2935.js.map",
+    "static/js/2.173faab0.chunk.js": "/crowdless-web/static/js/2.173faab0.chunk.js",
+    "static/js/2.173faab0.chunk.js.map": "/crowdless-web/static/js/2.173faab0.chunk.js.map",
+    "index.html": "/crowdless-web/index.html",
+    "precache-manifest.67416a5e736faf9abd36ba933446d6a0.js": "/crowdless-web/precache-manifest.67416a5e736faf9abd36ba933446d6a0.js",
+    "service-worker.js": "/crowdless-web/service-worker.js",
+    "static/css/main.e2c0cf1e.chunk.css.map": "/crowdless-web/static/css/main.e2c0cf1e.chunk.css.map",
+    "static/js/2.173faab0.chunk.js.LICENSE.txt": "/crowdless-web/static/js/2.173faab0.chunk.js.LICENSE.txt",
+    "static/media/aboutUs.css": "/crowdless-web/static/media/AboutUs.33a84d60.svg",
+    "static/media/whyRegister.css": "/crowdless-web/static/media/RegisterYourStore.9ce940bd.svg",
+    "static/media/contactUs.css": "/crowdless-web/static/media/contactus.2f453d94.png",
+    "static/media/footcounticon.svg": "/crowdless-web/static/media/footcounticon.15a459d0.svg",
+    "static/media/landingScreen.css": "/crowdless-web/static/media/landingscreen2.da55f8a6.svg",
+    "static/media/liveCount.svg": "/crowdless-web/static/media/liveCount.faf4ced4.svg",
+    "static/media/moreCustomer.svg": "/crowdless-web/static/media/moreCustomer.ce260a92.svg",
+    "static/media/moreEfficient.png": "/crowdless-web/static/media/moreEfficient.15e09a8e.png",
+    "static/media/moreProfit.png": "/crowdless-web/static/media/moreProfit.7217ee21.png",
+    "static/media/search-icon.svg": "/crowdless-web/static/media/search-icon.4eb00e91.svg",
+    "static/media/serviceProvided.css": "/crowdless-web/static/media/services.9a3e4ea7.png",
+    "static/media/storeContact.svg": "/crowdless-web/static/media/storeContact.387e7d82.svg",
+    "static/media/storeType.svg": "/crowdless-web/static/media/storeType.706cebe0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82ba2935.js",
+    "static/js/2.173faab0.chunk.js",
+    "static/css/main.e2c0cf1e.chunk.css",
+    "static/js/main.105cd28b.chunk.js"
+  ]
+}
