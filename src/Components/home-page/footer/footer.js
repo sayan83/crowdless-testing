@@ -48,7 +48,7 @@ class Footer extends Component{
                         <div className="social-media-label">facebook</div>
                     </div>
                     <div className="footer-text">
-                        Ph: XXXXXXXXXX<br></br>
+                        {/* Ph: XXXXXXXXXX<br></br> */}
                         Email: contact@crowdless.online
                     </div>
                 </div>
