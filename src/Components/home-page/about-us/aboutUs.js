@@ -7,14 +7,13 @@ class AboutUs extends Component{
             <div id="aboutus" className="about-us-container">
                 <div className="aboutus-heading">ABOUT US</div>
                 <div className="description">
-                Lorem Ipsum is simply dummy text of the printing 
-                and typesetting industry. Lorem Ipsum has been the 
-                industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and 
-                scrambled it to make a type specimen book. It has 
-                survived not only five centuries.  took a galley of 
-                type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries
+                In this busy world, we respect everybody’s time 
+                And to help people get the most of their time, 
+                we are building a platform that gives individuals 
+                the ability to make the most of their time, by knowing
+                upfront about crowd levels at their destination and planning
+                visits accordingly. No more wait times in queues, visit when 
+                <b> crowd’s-less</b> or book an appointment online before visit.
                 </div>
             </div>
         )

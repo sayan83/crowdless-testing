@@ -20,8 +20,8 @@ class Footer extends Component{
                     </div>
                     <div className="footer-heading">
                         SERVING LOCATIONS
-                        <div className="footer-text">India</div>
-                        <div className="footer-text">US</div>
+                        <div className="footer-text">Kolkata</div>
+                        {/* <div className="footer-text">US</div> */}
                     </div>
                 </div>
                 <div className="footer-col">

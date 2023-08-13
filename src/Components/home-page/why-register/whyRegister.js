@@ -9,7 +9,7 @@ class WhyRegister extends Component{
         return(
             <div id="whyregister" className="why-register-container">
                 <div className="register-your-store-question">WANT TO REGISTER YOUR STORE?</div>
-                <button className="button-style">REGISTER NOW</button>
+                <a href='/#contactus'><button className="button-style">CONTACT US</button></a>
                 <div className="why-register-question">WHY REGISTER?</div>
                 <div className="store-benefits-row">
                     <div className="store-benefit-col">
@@ -18,7 +18,7 @@ class WhyRegister extends Component{
                             MORE CUSTOMERS
                         </div>
                         <div className="store-benefit-description">
-                            Lorem Ipsum descritipn about this beefit and how.
+                            Get analytics to drive more customers.
                         </div>
                     </div>
                     <div className="store-benefit-col">
@@ -27,7 +27,7 @@ class WhyRegister extends Component{
                             MORE EFFICIENCY
                         </div>
                         <div className="store-benefit-description">
-                            Lorem Ipsum descritipn about this beefit and how.
+                            Know the expected crowd before hand to manage efficiently
                         </div>
                     </div>
                     <div className="store-benefit-col">
@@ -36,11 +36,11 @@ class WhyRegister extends Component{
                             MORE PROFIT
                         </div>
                         <div className="store-benefit-description">
-                            Lorem Ipsum descritipn about this beefit and how.
+                            With more customers and more efficiency comes more profit
                         </div>
                     </div>
                 </div>
-                <div className="registration-cost">ALL AT NO COST</div>
+                {/* <div className="registration-cost">ALL AT NO COST</div> */}
             </div>
         )
     }
